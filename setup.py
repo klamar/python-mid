@@ -5,6 +5,8 @@ module = Extension('mid', sources=['midmodule.c'])
 setup(name='python-mid',
       version='1.0.0',
       description='MID module',
+      long_description=open('README.md').read(),
+      long_description_content_type='text/markdown',
       author='Martin Klapproth',
       url='https://github.com/klamar/python-mid',
       maintainer_email="martin.klapproth@makrotan.com",
